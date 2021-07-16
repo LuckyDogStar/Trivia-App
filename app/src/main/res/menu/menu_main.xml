@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.driver_Trivia.MainActivity">
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="ADD"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="DELETE"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_update"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="UPDATE"
+        app:showAsAction="always"/>
+</menu>

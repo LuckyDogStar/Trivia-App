@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.candy_store_for_class"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:5:5-31:19
+12        android:allowBackup="true"
+12-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] C:\Users\Ryan\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.Candy_Store_For_Class" >
+20-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:11:9-59
+21        <activity
+21-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:12:9-21:20
+22            android:name="com.driver_Trivia.MainActivity"
+22-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:13:13-58
+23            android:label="@string/app_name"
+23-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:14:13-45
+24            android:theme="@style/Theme.Candy_Store_For_Class.NoActionBar" >
+24-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:15:13-75
+25            <intent-filter>
+25-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:17:17-69
+26-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:19:17-77
+28-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:22:9-24:53
+32            android:name="com.driver_Trivia.InsertActivity"
+32-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:23:13-60
+33            android:screenOrientation="fullSensor" />
+33-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:24:13-51
+34        <activity
+34-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:25:9-27:53
+35            android:name="com.driver_Trivia.DeleteActivity"
+35-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:26:13-60
+36            android:screenOrientation="fullSensor" />
+36-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:27:13-51
+37        <activity
+37-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:28:9-30:53
+38            android:name="com.driver_Trivia.UpdateActivity"
+38-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:29:13-60
+39            android:screenOrientation="fullSensor" />
+39-->C:\Users\Ryan\StudioProjects\driver_trivia\app\src\main\AndroidManifest.xml:30:13-51
+40    </application>
+41
+42</manifest>
